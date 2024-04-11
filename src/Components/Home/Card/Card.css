@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+}
+.card_main {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  /* background-color: aqua; */
+}
+.card {
+  width: 16.57rem;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 5px #f06e27;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  position: relative;
+}
+.Overlytext {
+  background-color: white;
+  color: black;
+  padding: 4px 25px;
+  position: absolute;
+  right: 0;
+  font-size: 11px;
+  font-weight: bold;
+}
+.cardtitle {
+  font-size: 18px;
+  text-align: center;
+  padding: 2px;
+  margin: 10px 0 0 0;
+  /* animation  */
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cardtitle:hover {
+  color: #f06e27;
+}
+.from {
+  opacity: 0.5;
+}
+.prices {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+del {
+  opacity: 0.5;
+}
+.card select {
+  width: 100%;
+  background-color: #fcf7ef;
+  padding: 5px;
+  font-size: 15px;
+  margin-top: -9px;
+}
+.addtocart {
+  width: 100%;
+  font-size: 15px;
+  background-color: #f06e27;
+  color: white;
+  font-weight: bolder;
+  margin: 2px 0;
+}
+.addtocart:hover {
+  background-color: #f06e27;
+  color: white;
+}

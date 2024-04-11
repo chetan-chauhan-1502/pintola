@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tyo_main {
+  width: 93%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+/* ------------------------------------------------------------------------------------- */
+
+.tyol {
+  width: 50%;
+  height: auto;
+  /* background-color: green; */
+}
+.tyol img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.tyor {
+  width: 50%;
+  height: auto;
+  padding: 40px;
+  background-color: white;
+}
+/* ------------------------------------------------------------------------------- */
+
+.tyor1 {
+  width: 90%;
+  height: auto;
+  display: flex;
+  background-color: #f3945f1a;
+  border-radius: 30px;
+}
+/* ------------------------------------------------------------------------------- */
+
+.tab-btn {
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px ;
+  margin: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.tab-btn {
+  width: 50%;
+  height: auto;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 40px;
+}
+.tab-btn:focus {
+  background-color: #f06e27;
+  color: black;
+}
+.tab-btn.active {
+  background-color: #f06e27;
+}
+
+/* ------------------------------------------------------------------------------- */
+.tyoorder {
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+}
+.tyoorder p {
+  width: 100%;
+  height: auto;
+  margin: 40px 0;
+  /* background-color: green; */
+}
+.tyoorder input {
+  width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+}
+.tyoorder button {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: bold;
+  height: auto;
+  outline: none;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+/* ------------------------------------------------------------------------------- */
+
+.tyoTrack {
+  width: 100%;
+  height: auto;
+  /* display: none; */
+  /* background-color: red; */
+}
+.tyoTrack p {
+  width: 100%;
+  height: auto;
+  margin: 40px 0;
+  /* background-color: green; */
+}
+.tyoTrack input {
+  width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+}
+.tyoTrack button {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: bold;
+  height: auto;
+  outline: none;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+/* ------------  Responsive------------------------------------ */
+
+@media (max-width: 1257px) {
+  .tyo_main {
+    display: block;
+    width: 100%;
+  }
+  .tyol {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+  .tyor {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+  }
+}

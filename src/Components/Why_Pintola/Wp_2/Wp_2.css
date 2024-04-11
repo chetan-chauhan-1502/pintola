@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wp2_main {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+/* --------------------------- */
+.wp2 {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+}
+.wp2l {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+}
+.wp2l img {
+  width: 300px;
+  height: auto;
+  /* background-color: red; */
+}
+.wp2r {
+  width: 50%;
+  height: auto;
+  /* background-color: blueviolet; */
+}
+.wp2r h1 {
+  display: inline-block;
+  width: 100%;
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
+.wp2r p {
+  font-size: 15px;
+  color: black;
+}
+/* ----------------------------- */
+
+.wp22 {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.wp2ll {
+  width: 50%;
+  height: auto;
+  /* background-color: blueviolet; */
+}
+.wp2ll h1 {
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
+.wp2ll p {
+  font-size: 15px;
+  color: black;
+}
+
+.wp2rr {
+  width: 50%;
+  height: auto;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+}
+
+.wp2rr img {
+  width: 300px;
+  height: auto;
+  /* background-color: red; */
+}
+
+/* ---------------Responsive for -------------------------- */
+
+@media (max-width: 820px) {
+  .wp2 {
+    width: 100%;
+    display: block;
+  }
+  .wp2l {
+    width: 80%;
+    height: auto;
+    margin: auto;
+
+  }
+  .wp2r {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  .wp22{
+    display: block;
+    width: 100%;
+  }
+  .wp2ll{
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  .wp2rr{
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+}

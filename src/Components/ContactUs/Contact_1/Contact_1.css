@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact1_main {
+  width: 93%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  /* background-color: gray; */
+}
+
+/* -------------------------------------------------------------------------- */
+
+.contactl {
+  width: 50%;
+  height: auto;
+  /* background-color: blue; */
+}
+.con1 {
+  font-size: 28px;
+  color: #f06e27;
+  font-weight: bolder;
+}
+.con2 {
+  font-size: 15px;
+  margin: 25px 0;
+}
+.col3 h1 {
+  font-size: 17px;
+  font-weight: bolder;
+  color: #f06e27;
+  margin: 20px 0;
+}
+.contact_icons {
+  width: 100%;
+  height: auto;
+  /* background-color: blue; */
+}
+.con_icon {
+  font-size: 25px;
+  margin: 2px;
+}
+.con_icon:hover {
+  color: #f06e27;
+}
+
+/* -------------------------------------------------------------------------- */
+.contactr {
+  width: 50%;
+  height: auto;
+  padding: 40px;
+  background-color: #f7f6f5;
+}
+.contactr p {
+  font-size: 15px;
+  color: rgb(138, 126, 126);
+  font-weight: bold;
+}
+form {
+  width: 100%;
+  height: auto;
+}
+form select {
+  width: 100%;
+  height: auto;
+  padding: 7px 7px 7px 15px;
+  border: none;
+  outline: none;
+}
+form input {
+  width: 100%;
+  height: auto;
+  padding: 7px 7px 7px 15px;
+  border: none;
+  outline: none;
+  margin: 20px 0 0 0;
+}
+form textarea {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 0 0;
+}
+form button {
+  margin: 15px 0 0 0;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+form button:hover {
+  color: white;
+  background-color: #f06e27;
+}
+
+
+/* ---------------  Responsive ------------------------- */
+
+@media (max-width: 768px) {
+  .contact1_main{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+  }
+  .contactl{
+    width: 100%;
+    height: auto;
+  }
+  .contactr{
+    width: 100%;
+    height: auto;
+  }
+}
