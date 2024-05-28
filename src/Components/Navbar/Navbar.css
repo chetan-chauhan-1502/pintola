@@ -3,15 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   width: 100vw;
   height: auto;
 }
+
 .ht {
   width: 100vw;
   height: 35px;
   background-color: #f06e27;
 }
+
 .navbar {
   width: 100%;
   height: auto;
@@ -24,71 +27,84 @@ body {
   position: sticky;
   top: 0;
   z-index: 999;
-  /* background-color: red; */
 }
+
 .logo {
   width: 13vw;
   height: auto;
-  /* background-color: red;    */
 }
+
 .logo img {
   width: 100%;
   height: auto;
   background-size: cover;
 }
+
 .logo img:hover {
   opacity: 0.5;
 }
+
 .nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .nav li {
   list-style: none;
 }
+
 .nav li a {
   color: #746661;
   text-decoration: none;
   font-size: 16px;
   padding: 10px;
 }
+
 .nav li a:hover {
   color: #f06e27;
 }
+
 .nav li a:active {
   color: #f06e27;
   font-weight: bolder;
 }
+
 .nav li a:focus {
   color: #f06e27;
   font-weight: bolder;
 }
+
 #tyo {
   background-color: #f06e27;
   color: white;
   border-radius: 20px;
 }
+
 #tyo:hover {
   background-color: #f06e27;
   color: white;
 }
+
 .icons {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+
 .icon {
   text-align: center;
   padding: 0 5px;
   background-color: transparent;
 }
+
 .icon .i {
   font-size: 19px;
   margin-top: 12px;
   color: #746661;
 }
+
 .icon p {
   color: #746661;
   font-size: 12px;
@@ -103,8 +119,6 @@ body {
 
 /* ------------------------------for search mate ----------------------------------------- */
 
-/* agal navbar ma change karvu pade  */
-
 .popup {
   width: 100%;
   height: auto;
@@ -114,32 +128,33 @@ body {
   z-index: 999;
   background-color: #fcf7ef;
 }
+
 .closeAreabtn {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: end;
-  /* background-color: aqua; */
 }
+
 .closePopup {
   color: black;
   font-size: 40px;
   margin: 10px;
-  /* background-color: red; */
 }
+
 .searchItems {
   width: 93%;
   height: auto;
   margin: auto;
-  /* background-color: firebrick; */
 }
+
 .searchItems h1 {
   text-align: center;
   font-size: 28px;
   font-weight: bolder;
   margin-bottom: 30px;
-  /* background-color: pink; */
 }
+
 .searchItems input {
   width: 100%;
   padding: 5px 10px;
@@ -147,15 +162,14 @@ body {
   outline: none;
   font-size: 15px;
 }
+
 .searchItems p {
   width: 70%;
   height: auto;
   margin: auto;
   text-align: center;
-  /* padding: 0 200px; */
   margin-top: 25px;
   font-size: 18px;
-  /* background-color: aqua; */
 }
 
 .notification {
@@ -164,16 +178,18 @@ body {
   padding: 0 10px;
   position: relative;
   text-align: center;
-  /* background-color: red; */
 }
+
 .notification span .i {
   color: #746661;
   font-size: 25px;
 }
+
 .notification p {
   color: #746661;
   font-size: 15px;
 }
+
 .notification .badge {
   position: absolute;
   top: -10px;
@@ -185,10 +201,10 @@ body {
 }
 
 .fabar {
-  /* padding: 10px; */
   background-color: black;
   float: end;
 }
+
 .fabar {
   padding: 0 5px;
   font-size: 1.9rem;
@@ -196,21 +212,21 @@ body {
   display: none;
 }
 
-/* responsive for  */
-
 @media (max-width: 1130px) {
   .navbar {
     width: 100%;
     padding: 10px 10px;
-    /* background-color: red; */
   }
+
   .logo {
     width: 15vw;
   }
+
   .logo img {
     width: 100%;
     height: auto;
   }
+
   .fabar {
     display: block;
   }
@@ -218,38 +234,44 @@ body {
   .icons {
     display: none;
   }
+
   .nav {
     display: none;
   }
 }
 
-/* --------------------responsive mnavbar for  */
+/* Responsive offcanvas navbar */
 
-/* #offcanvasExample{
-  width: 100vw;
-  background-color: red;
-} */
+.offcanvas {
+  width: 50% !important;
+}
+
 .navclose {
   background-color: aliceblue;
 }
+
 .navItems {
   text-align: center;
   background-color: black;
 }
+
 #NavBar {
   padding: 20px 0;
   background-color: black;
 }
+
 #NavBar li {
   list-style-type: none;
   margin: 5px 0;
   padding: 10px;
   background-color: white;
 }
+
 #NavBar li a {
   font-size: 15px;
   color: black;
 }
+
 #NavBar li a:hover {
   color: orange;
 }
