@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.aboutMain {
+  width: 100%;
+  height: auto;
+  background-color: rgb(199, 202, 150);
+}
+.aboutDetail{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 20px 0;
+  /* background-color: red; */
+}
+.aboutDetail h1{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.aboutDetail p{
+  font-size: 20px;
+  text-align: start;
+  margin-bottom: 10px;
+}
+/* ------------------------- */
+
+/* images mate  */
+
+.AboutLast {
+  width: 100%;
+  height: auto;
+}
+.AboutLast img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

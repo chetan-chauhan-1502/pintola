@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ads2 {
+  width: 93vw;
+  height: auto;
+  margin: auto;
+  background-color: red;
+}
+
+.ads2 img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/* ------------------ */
+
+/* PAGINATION MATE  */
+
+.page-link {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  font-size: 20px;
+}
+.page-link:hover {
+  background-color: black;
+  color: white;
+}
+.page-link:active {
+  background-color: black;
+  color: white;
+}
+.page-link:focus {
+  background-color: black;
+  color: white;
+}

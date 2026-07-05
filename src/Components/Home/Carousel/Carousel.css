@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  background-color: red;
+}
+.carousel-control-l {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  color: black;
+  font-size: 50px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.carousel-control-r {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  background-color: white;
+  color: black;
+  font-size: 50px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.carousel-item {
+  width: 100vw;
+  height: auto;
+}
+.carousel-item img {
+  width: 100vw;
+  height: auto;
+  background-size: cover;
+}

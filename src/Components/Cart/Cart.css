@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table {
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  border: 1px solid black;
+}
+.table thead tr th {
+  font-size: 25px;
+  text-align: start;
+  border: 1px solid rgb(0, 0, 0);
+}
+.table tbody tr {
+  vertical-align: middle;
+}
+.table tbody tr td {
+  border: 1px solid black;
+}
+.product {
+  text-align: start;
+}
+
+.product img {
+  width: 80px;
+  height: 80px;
+}
+.product h5 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.product img {
+  width: 120px;
+  height: 120px;
+}
+.countNumber button {
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  transition: all ease-in 0.2s;
+}
+.countNumber button:hover {
+  background-color: blue;
+}
+.countNumber span {
+  padding: 6px 20px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.removeItem {
+  font-size: 40px;
+  transition: all ease-in 0.2s;
+}
+.removeItem:hover {
+  background-color: white;
+  color: red;
+}
+
+.totalPrice {
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  padding: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  text-align: end;
+}
+.totalPrice span {
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  /* background-color: green; */
+}
+
+@media (max-width: 852px) {
+  .countNumber button {
+    width: 100%;
+  }
+  .countNumber span {
+    display: block;
+    text-align: center;
+  }
+  .product {
+    text-align: center;
+  }
+  .table thead tr th {
+    text-align: center;
+  }
+  .table thead tr th {
+    font-size: 13px;
+    font-weight: bolder;
+  }
+}
+
+@media (max-width: 408px) {
+  .table {
+    width: 100vw;
+  }
+  .table thead tr th {
+    width: auto;
+    font-size: 11px;
+  }
+  .product img {
+    width: 60px;
+    height: 60px;
+  }
+  .product h5 {
+    font-size: 8px;
+    margin-top: 5px;
+  }
+  .removeItem {
+    font-size: 30px;
+  }
+  .productPrice {
+    font-size: 12px;
+  }
+  .productTotal {
+    font-size: 12px;
+  }
+  .totalPrice {
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    text-align: center;
+  }
+  .totalPrice span {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+}

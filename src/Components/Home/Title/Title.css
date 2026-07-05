@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: fcf7ef;
+  margin: 20px 0;
+  position: relative;
+}
+.title::before {
+  content: "";
+  width: 100px;
+  border-bottom: 5px solid black;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.title h1 {
+  color: black;
+  font-weight: bolder;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.title h1:hover {
+  color: #f06e27;
+}

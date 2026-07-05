@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ------------------------------Login Btns------------------------------------------  */
+.login_btns {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  border: 1px solid #f06e27;
+}
+.loginl {
+  width: 50%;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+.loginl:focus {
+  background-color: #f06e27;
+  color: white;
+}
+.loginr {
+  width: 50%;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+.loginr:focus {
+  background-color: #f06e27;
+  color: white;
+}
+
+/* ------------------------------Login mate------------------------------------------  */
+
+.loginform {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 60px;
+  /* background-color: red; */
+}
+.loginform form {
+  width: 100%;
+  height: auto;
+}
+.loginform form label {
+  font-size: 15px;
+  margin: 5px 0 0 0;
+  /* background-color: red; */
+}
+.loginform form input {
+  width: 100%;
+  font-size: 15px;
+  margin: 5px 0 0 0;
+  /* background-color: red; */
+}
+
+.loginArea {
+  display: flex;
+  justify-content: space-between;
+}
+.customerLogin {
+  background-color: white;
+  outline: 1px solid black;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.forgetPass {
+  border: none;
+  outline: none;
+  color: black;
+  background-color: transparent;
+}
+.forgetPass:hover {
+  color: #f06e27;
+  background-color: transparent;
+}
+.redirectSignUp {
+  /* background-color: red; */
+}
+.redirectSignUp button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+.redirectSignUp button:hover {
+  background-color: transparent;
+  color: #f06e27;
+}
+
+/* ------------------------------Register mate ------------------------------------------  */
+
+.registerform {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  /* background-color: red; */
+}
+.registerform form {
+  width: 50%;
+  height: auto;
+  /* background-color: aqua; */
+}
+.registerform form label {
+  font-size: 15px;
+  margin: 5px 0 0 0;
+  /* background-color: red; */
+}
+.registerform form input {
+  width: 100%;
+  font-size: 15px;
+  margin: 5px 0 0 0;
+  /* background-color: red; */
+}
+
+.signupArea {
+  display: flex;
+  justify-content: space-between;
+}
+.customerSignUp {
+  background-color: white;
+  outline: 1px solid black;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.Indicates {
+  border: none;
+  outline: none;
+  color: black;
+  background-color: transparent;
+}
+.Indicates:hover {
+  color: black;
+  background-color: transparent;
+}
+.redirectSignUp {
+  /* background-color: red; */
+}
+.redirectlogin button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+.redirectlogin button:hover {
+  background-color: transparent;
+  color: #f06e27;
+}
+
+/* ------------------------------forget password mate mate ------------------------------------------  */
+
+.forgetpassworMain {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+.forgetpassword {
+  width: 50%;
+  height: auto;
+}
+.forgetpassword p {
+  margin-top: 20px;
+}
+.forgetpassword span {
+  display: flex;
+  justify-content: space-between;
+}
+.cancel {
+  background-color: transparent;
+  color: black;
+}
+.cancel:hover {
+  background-color: transparent;
+  color: #f06e27;
+}
+
+.error {
+  display: block;
+  color: red;
+}
+
+/* responsive --------------- */
+
+@media (max-width: 770px) {
+  .registerform {
+    width: 90vw;
+    padding: 10px;
+    /* background-color: red; */
+  }
+  .registerform form{
+    width: 100%;
+    /* background-color: red; */
+  }
+  .Indicates{
+    font-size: 13px;
+  }
+
+  .forgetpassworMain{
+    width: 100%;
+    /* background-color: red; */
+  }
+  .forgetpassword{
+    width: 90%;
+    margin: auto;
+    /* background-color: green; */
+  }
+
+
+}

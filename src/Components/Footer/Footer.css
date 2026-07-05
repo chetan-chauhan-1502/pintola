@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  background-color: #fcf7ef;
+  border-top: 4px solid #f06e27;
+  /* background-color: red; */
+}
+.f1 {
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  margin: auto;
+}
+.f1data {
+  width: 100%;
+  height: auto;
+  padding: 0 31px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px;
+  /* background-color: green;  */
+}
+.f1data1 {
+  width: 200px;
+  /* background-color: aqua; */
+}
+.Footerlogo {
+  width: 13vw;
+  height: auto;
+  margin-bottom: 20px;
+}
+.Footerlogo:hover {
+  opacity: 0.7;
+}
+.f1p {
+  font-size: 16px;
+}
+.f1icon {
+  /* background-color: red; */
+  padding: 20px 0px;
+}
+.f1icon1 {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #665b6a;
+  transition: 1s;
+}
+.f1icon1:hover {
+  cursor: pointer;
+  color: #f06e27;
+}
+.f1data2 {
+  width: 200px;
+}
+.f21 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.f22 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+.f1data3 {
+  width: 200px;
+}
+.f1data4 {
+  width: 200px;
+  padding: 0 10px;
+}
+.h42 {
+  margin-top: 20px;
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+}
+.f43 {
+  margin-top: 15px;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+.f43:hover {
+  background-color: #f06e27;
+}
+.f1data5 {
+  width: 200px;
+}
+.f52 {
+  background-color: black;
+  color: white;
+  width: 105px;
+  height: 35px;
+  padding: 5px 16px;
+  font-size: 16px;
+}
+.f52:hover {
+  background-color: #f06e27;
+}
+
+.f2 {
+  padding: 20px 0px;
+  width: 93%;
+  margin: auto;
+  height: 60px;
+}
+.f221 {
+  font-size: 13px;
+  padding: 0 10px;
+}
